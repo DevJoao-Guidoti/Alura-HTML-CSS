@@ -158,7 +158,24 @@ font-family: "Inter", sans-serif;
     font-size: 48px;
     font-weight: 700;
 }
+.container-quinto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0 10rem;
+    gap:70px;
+}
+.container-quinto h4{
+    font-family: "Inter", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+}
+.container-imagens{
+    display:flex;
 
+}
 
 
 
