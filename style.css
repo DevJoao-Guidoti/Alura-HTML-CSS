@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+:root{
+    --branco-principal: #ffffff;
+    --cinza-principal: #f0f0f0;
+    --cor-do-botao: #167bf7;
+    --cor-de-fundo: #00030c;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+}
+
+.principal{
+    background-image: url("img/Background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.container{
+    height: 100vh;
+    padding-left: 54px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+
+}
+.container img{
+    width: 348px;
+    height: 100px;
+     margin-left: 110px;
+}
+.titulo{
+    font-size: 28px;
+font-family: "Inter", sans-serif;
+}
+.container-botao{
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    background-color: var(--cor-do-botao);
+    color: var(--branco-principal);
+    width: 512px;
+    height: 56px;
+    border-radius: 8px;
+    text-decoration: none;
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-botao1{
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    background-color: transparent;
+    border: 2px solid var(--branco-principal);
+    color: var(--branco-principal);
+    width: 512px;
+    height: 56px;
+    border-radius: 8px;
+    text-decoration: none;
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-botoes{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.container-combo{
+  display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.container-aviso{
+    font-family: "Inter", sans-serif;
+    color: var(--cinza-principal);
+    font-size: 12px;
+    padding: 0 100px;
+}
+
+
+
+/* SEGUNDA SECTION */
+.container-secundario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container-secundario img{
+    width: 60%;
+}
+.container-texto{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 8px;
+}
+.container-texto h2{
+    font-family: "Inter", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+}
+.container-texto p{
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+}
+
+
+
+
+
+    
+
